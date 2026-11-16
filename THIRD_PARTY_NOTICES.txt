@@ -1,0 +1,268 @@
+================================================================================
+TANI AUDIO LEVELER — OPEN SOURCE & THIRD-PARTY LEGAL NOTICES
+Publisher: TaNi Digital Labs
+Product: TaNi Audio Leveler (Windows 10/11 Desktop)
+================================================================================
+
+1. OVERVIEW & USER RIGHTS UNDER THE GNU LESSER GENERAL PUBLIC LICENSE (LGPL)
+--------------------------------------------------------------------------------
+TaNi Audio Leveler invokes the external command-line executable "ffmpeg.exe"
+(from the FFmpeg project, built as dynamic shared libraries: avcodec-63.dll,
+avdevice-63.dll, avfilter-12.dll, avformat-63.dll, avutil-61.dll,
+swresample-7.dll, and swscale-10.dll).
+
+- FFmpeg Version: n9.0.2-57-gd838f9f9ae-20261115 (Commit: d838f9f9ae)
+- Build System: FFmpeg-Builds (Commit: c9fe5114060e507409f7ee07edfd82efaf25d767)
+- Governing License of the FFmpeg Shared Build:
+  GNU Lesser General Public License Version 3 (LGPLv3), incorporating the terms
+  of GNU General Public License Version 3 (GPLv3) supplemented by the LGPLv3
+  additional permissions. Full verbatim copies are provided in:
+  * licenses/COPYING.LGPLv3
+  * licenses/COPYING.GPLv3
+  * licenses/COPYING.LGPLv2.1
+
+YOUR RIGHTS TO MODIFY, REPLACE, AND DEBUG LGPL COMPONENTS:
+In accordance with Section 4 of the GNU Lesser General Public License v3 (and
+Section 6 of the LGPL v2.1 where applicable):
+1. You are permitted to modify the LGPL-covered libraries included with this
+   software and to reverse-engineer, decompile, or disassemble for the purpose
+   of debugging such modifications. Nothing in the TaNi Audio Leveler End-User
+   License Agreement (EULA) restricts this right.
+2. You may replace the shared FFmpeg dynamic libraries (avcodec-63.dll,
+   avfilter-12.dll, avformat-63.dll, avutil-61.dll, swresample-7.dll,
+   avdevice-63.dll, swscale-10.dll) directly, or configure TaNi Audio Leveler
+   to use any custom-built "ffmpeg.exe" executable via:
+   [Settings -> Custom FFmpeg Executable Path -> Browse ffmpeg.exe...]
+
+
+2. MANDATORY INDEPENDENT JPEG GROUP (IJG) ATTRIBUTION
+--------------------------------------------------------------------------------
+This software is based in part on the work of the Independent JPEG Group.
+Specifically, the files libavcodec/jfdctfst.c, libavcodec/jfdctint_template.c,
+and libavcodec/jrevdct.c within FFmpeg's libavcodec (avcodec-63.dll) are derived
+from libjpeg by the Independent JPEG Group and are included in their unmodified
+upstream form as of FFmpeg commit d838f9f9ae.
+
+
+3. FFMPEG & COPYLEFT / WEAK-COPYLEFT LIBRARIES (LGPL / MPL)
+--------------------------------------------------------------------------------
+The Corresponding Source archives for FFmpeg and all LGPL/MPL libraries linked
+into the shared FFmpeg DLLs are archived in:
+  third_party/ffmpeg-lgpl-9.0/corresponding_source/
+
+3.1. FFmpeg
+  - Copyright (c) 2000-2026 the FFmpeg developers.
+  - FFmpeg is a trademark of Fabrice Bellard, originator of the FFmpeg project.
+  - License: LGPLv2.1+ (configured with --enable-version3 -> LGPLv3).
+  - Source Archive: FFmpeg-d838f9f9ae.zip
+  - Build Scripts Archive: FFmpeg-Builds-c9fe5114060e507409f7ee07edfd82efaf25d767.zip
+
+3.2. LAME MP3 Encoder (libmp3lame)
+  - Copyright (c) 1999-2026 The LAME Project (Mark Taylor, Takehiro Tominaga,
+    Robert Hegemann, Gabriel Bouvigne, Alexander Leidinger, et al.).
+  - License: GNU Library/Lesser General Public License v2.0 or later (LGPLv2+).
+  - Exact Revision in Build Script (50-libmp3lame.sh):
+    https://svn.code.sf.net/p/lame/svn/trunk/lame @ SVN r7113
+    (Mirror Git Commit: 82add7bc161191fc5e050f5cc68c36f7504ce028)
+  - Source Archive: lame-svn-r7113-82add7bc161191fc5e050f5cc68c36f7504ce028.zip
+
+3.3. SoX Resampler Library (libsoxr)
+  - Copyright (c) 2007-2018 Rob Sykes <robs@users.sourceforge.net>.
+  - License: LGPLv2.1+.
+  - Exact Commit: 945b592b70470e29f917f4de89b4281fbbd540c0
+  - Source Archive: soxr-945b592b70470e29f917f4de89b4281fbbd540c0.zip
+
+3.4. GNU libiconv & gnulib
+  - Copyright (c) 1999-2026 Free Software Foundation, Inc.
+  - License: LGPLv2.1+ (libiconv library).
+  - Exact Commits:
+    * libiconv: b5a1735e02bf43ee6e490fcf9395e8abc8d32432
+    * gnulib:   5df606bbd0ef54a8f150c3303c870b9381a661f0
+  - Source Archives:
+    * libiconv-b5a1735e02bf43ee6e490fcf9395e8abc8d32432.zip
+    * gnulib-5df606bbd0ef54a8f150c3303c870b9381a661f0.zip
+
+3.5. GNU Multiple Precision Arithmetic Library (GMP)
+  - Copyright (c) 1991-2026 Free Software Foundation, Inc.
+  - License: Dual LGPLv3+ / GPLv2+.
+  - Exact Commit: 5c3e9a9d52b697cab7b7d26a53972a3bf922d59a
+  - Source Archive: gmplib-5c3e9a9d52b697cab7b7d26a53972a3bf922d59a.zip
+
+3.6. GNU FriBidi
+  - Copyright (c) 1999-2026 Behdad Esfahbod, Dov Grobgeld, and contributors.
+  - License: LGPLv2.1+.
+  - Exact Commit: d2f3e1f4946e7cef9789e1c3ebdb4a60d4314c7f
+  - Source Archive: fribidi-d2f3e1f4946e7cef9789e1c3ebdb4a60d4314c7f.zip
+
+3.7. aribb24
+  - Copyright (c) 2014-2026 Francois Cartegnie and contributors.
+  - License: LGPLv3+.
+  - Exact Commit: 5e9be272f96e00f15a2f3c5f8ba7e124862aec38
+  - Source Archive: aribb24-5e9be272f96e00f15a2f3c5f8ba7e124862aec38.zip
+
+3.8. libbluray & libudfread
+  - Copyright (c) 2009-2026 VideoLAN and authors.
+  - License: LGPLv2.1+.
+  - Exact Commits:
+    * libbluray:  f33a738fd7bb8b5e1148b0a5424778db7342450b
+    * libudfread: b0bc6957e7e07d5f35391f210596d9eb71cffdd9
+  - Source Archives:
+    * libbluray-f33a738fd7bb8b5e1148b0a5424778db7342450b.zip
+    * libudfread-b0bc6957e7e07d5f35391f210596d9eb71cffdd9.zip
+
+3.9. Game_Music_Emu (libgme)
+  - Copyright (c) 2003-2026 Shay Green, Michael Pyne, and contributors.
+  - License: LGPLv2.1+.
+  - Exact Commit: f68963b1de0633149b05732113d3c3113c6f63a1
+  - Source Archive: game-music-emu-f68963b1de0633149b05732113d3c3113c6f63a1.zip
+
+3.10. libplacebo
+  - Copyright (c) 2017-2026 Niklas Haas and VideoLAN contributors.
+  - License: LGPLv2.1+.
+  - Exact Commit: 275f7dea27924cdd34ab2e6c20e448b6bc4fab65
+  - Source Archive: libplacebo-275f7dea27924cdd34ab2e6c20e448b6bc4fab65.zip
+
+3.11. librsvg
+  - Copyright (c) 2000-2026 GNOME Project / Federico Mena-Quintero et al.
+  - License: LGPLv2.1+.
+  - Exact Commit: 0c074d0a25adefd65843067306f9bc1fb609f68f
+  - Source Archive: librsvg-0c074d0a25adefd65843067306f9bc1fb609f68f.zip
+
+3.12. TwoLAME (libtwolame)
+  - Copyright (c) 2001-2026 Nicholas J. Humfrey and contributors.
+  - License: LGPLv2.1+.
+  - Exact Commit: 6fced852d4d5cfad58cf9dbe3ea619b08e87d398
+  - Source Archive: twolame-6fced852d4d5cfad58cf9dbe3ea619b08e87d398.zip
+
+3.13. OpenAL Soft
+  - Copyright (c) 1999-2026 Chris Robinson and contributors.
+  - License: LGPLv2+.
+  - Exact Commit: 4a52288b772d1722713675f71bb30f321e78fd80
+  - Source Archive: openal-soft-4a52288b772d1722713675f71bb30f321e78fd80.zip
+
+3.14. VapourSynth (Headers)
+  - Copyright (c) 2012-2026 Fredrik Mellbin.
+  - License: LGPLv2.1+.
+  - Exact Tag: R81
+  - Source Archive: vapoursynth-R81.zip
+
+3.15. Haivision SRT (libsrt) — Mozilla Public License 2.0 (MPL-2.0)
+  - Copyright (c) 2018-2026 Haivision Systems Inc.
+  - License: Mozilla Public License Version 2.0 (MPL-2.0).
+  - Notice per MPL-2.0 Section 3.2: Source code for libsrt is provided in
+    srt-9f2390232a8256ed4c72a5418c2b2777c49ad737.zip (Commit: 9f2390232a8256ed4c72a5418c2b2777c49ad737).
+
+3.16. ZeroMQ (libzmq) — Mozilla Public License 2.0 (MPL-2.0)
+  - Copyright (c) 2007-2026 iMatix Corporation and Contributors.
+  - License: Mozilla Public License Version 2.0 (MPL-2.0).
+  - Notice per MPL-2.0 Section 3.2: Source code for libzmq is provided in
+    libzmq-46493370217ac135246617fa2f6ac819d8b61bfc.zip (Commit: 46493370217ac135246617fa2f6ac819d8b61bfc).
+
+
+4. PERMISSIVE LIBRARIES LINKED IN THE FFMPEG BUILD (BSD / MIT / APACHE / ZLIB)
+--------------------------------------------------------------------------------
+The following permissive open-source libraries are included in the upstream
+FFmpeg-Builds LGPL shared distribution (exact commit hashes recorded in
+FFmpeg-Builds-c9fe5114060e507409f7ee07edfd82efaf25d767.zip):
+
+- .NET Runtime & Libraries / Windows App SDK 2.6.5 / CommunityToolkit.Mvvm 8.4.0:
+  Copyright (c) .NET Foundation and Contributors / Microsoft Corporation. Licensed under the MIT License.
+- MinGW-w64 Runtime & winpthreads (7213d719...):
+  Copyright (c) 2009-2026 by the mingw-w64 project. Licensed under Zope Public License / MIT / BSD.
+- GCC Runtime Libraries (libgcc, libstdc++, libgomp):
+  Copyright (c) Free Software Foundation, Inc. Licensed under GPLv3 with GCC Runtime Library Exception 3.1.
+- zlib (9d314c34...): Copyright (c) 1995-2026 Jean-loup Gailly and Mark Adler (Zlib License).
+- XZ Utils / liblzma (299eb5c3...): Copyright (c) Tukaani Project / Lasse Collin (0BSD / Public Domain).
+- libxml2 (c79c9612...): Copyright (c) 1998-2026 Daniel Veillard (MIT License).
+- FreeType (4ba7c3d8...): Portions of this software are copyright (c) 1996-2026 The FreeType Project (www.freetype.org). All rights reserved. (FreeType License - FTL).
+- Fontconfig (b25ffeab...): Copyright (c) 2000-2026 Keith Packard, Behdad Esfahbod, et al. (MIT / Modern Fontconfig License).
+- HarfBuzz (75d8ac5d...): Copyright (c) 2010-2026 Behdad Esfahbod and contributors ("Old MIT" License).
+- Little CMS / lcms2 (1112313b...): Copyright (c) 1998-2026 Marti Maria Saguer (MIT License).
+- libogg (06a5e026...): Copyright (c) 2002-2026 Xiph.org Foundation (BSD-3-Clause).
+- libvorbis (1b75110b...): Copyright (c) 2002-2026 Xiph.org Foundation (BSD-3-Clause).
+- libopus (a8b2545e...): Copyright (c) 2001-2026 Xiph.Org, Skype Limited, Octasic, Jean-Marc Valin, Timothy B. Terriberry, CSIRO, Gregory Maxwell, Mark Borgerding, Erik de Castro Lopo (BSD-3-Clause).
+- libtheora (28fd5ec7...): Copyright (c) 2002-2026 Xiph.org Foundation (BSD-3-Clause).
+- rav1e (31435de9...): Copyright (c) 2017-2026 Xiph.Org Foundation and contributors (BSD-2-Clause).
+- dav1d (b8b2d726...): Copyright (c) 2018-2026 VideoLAN and dav1d authors (BSD-2-Clause).
+- libaom (9ace39e0...): Copyright (c) 2016-2026, Alliance for Open Media (BSD-2-Clause + Alliance for Open Media Patent License 1.0).
+- SVT-AV1 (ad11d76a...): Copyright (c) 2019-2026 Intel Corporation / Alliance for Open Media (BSD-3-Clause Clear + AOM Patent License).
+- libvpx (900b2a52...) & libwebp (1844042d...): Copyright (c) 2010-2026 Google Inc. (BSD-3-Clause).
+- Cisco OpenH264 (1bca6231...): Copyright (c) 2013-2026 Cisco Systems, Inc. (BSD-2-Clause).
+- Fraunhofer VVenC (0e7508b8...): Copyright (c) 2018-2026 Fraunhofer-Gesellschaft zur Foerderung der angewandten Forschung e.V. (BSD-3-Clause-Clear).
+- Kvazaar (1f11f9ae...): Copyright (c) 2013-2026 Ultra Video Group, Tampere University (BSD-3-Clause).
+- uavs3d (0e20d2c2...): Copyright (c) 2018-2026 uavs3d project contributors (BSD-3-Clause).
+- OpenAPV / liboapv (b4ff6985...): Copyright (c) 2023-2026 Samsung Electronics Co., Ltd. / Academy Software Foundation (BSD-3-Clause).
+- LCEVCdec (741fb7c8...): Copyright (c) V-Nova International Limited (BSD-3-Clause).
+- Netflix VMAF (f712fa75...): Copyright (c) 2016-2026 Netflix, Inc. (BSD-2-Clause-Patent).
+- OpenCORE AMR (7dba8c32...): Copyright (c) 2009-2026 Martin Storsjo / PacketVideo (Apache License 2.0).
+- Vulkan-Headers & Vulkan-Shim-Loader / OpenCL-Headers & ICD-Loader / SPIRV-Cross & Headers: Copyright (c) The Khronos Group Inc. (Apache License 2.0 / MIT).
+- AMD AMF Headers (57ee0cfb...): Copyright (c) Advanced Micro Devices, Inc. (MIT License).
+- NVIDIA nv-codec-headers (f2053071...): Copyright (c) NVIDIA Corporation (MIT License).
+- Intel libvpl (674d015b...) & libva (f052e984...): Copyright (c) Intel Corporation (MIT License).
+- Chromaprint (3b38c100...): Copyright (c) 2010-2026 Lukas Lalinsky (MIT License).
+- libaribcaption (37dde0f3...): Copyright (c) 2022-2026 xqq (MIT License).
+- libass (f61db567...): Copyright (c) 2006-2026 libass contributors (ISC License).
+- libjxl (e47d2a2b...): Copyright (c) the JPEG XL Project Authors (BSD-3-Clause).
+- librist (47ad5513...): Copyright (c) 2019-2026 SipRadius LLC and librist authors (BSD-2-Clause).
+- libssh (9de02f3d...): Copyright (c) 2003-2026 Aris Adamantiadis, Andreas Schneider, and libssh contributors (LGPLv2.1+ / BSD).
+- OpenJPEG (8314119b...): Copyright (c) 2002-2026, Universite catholique de Louvain (UCL) (BSD-2-Clause).
+- libopenmpt (3ee3c800...): Copyright (c) 2004-2026 OpenMPT Project Developers and Contributors (BSD-3-Clause).
+- SDL2 (8acf7cfc...): Copyright (c) 1997-2026 Sam Lantinga <slouken@libsdl.org> (Zlib License).
+- Google Snappy (94660645...) & Brotli (2e2bcf17...): Copyright (c) Google Inc. (BSD-3-Clause / MIT).
+- zimg (67e06032...): Copyright (c) 2014-2026 sekrit-twc (WTFPL v2).
+- LV2 / serd / sord / sratom / lilv / zix: Copyright (c) David Robillard (ISC License).
+
+
+5. STANDARD PERMISSIVE LICENSE TEXTS (MIT / BSD-2-CLAUSE / BSD-3-CLAUSE / ISC / ZLIB / APACHE-2.0)
+--------------------------------------------------------------------------------
+
+[MIT License]
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+[BSD 2-Clause / 3-Clause License]
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+3. (For 3-Clause) Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from this
+   software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED.
+
+[ISC License]
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+[Zlib License]
+This software is provided 'as-is', without any express or implied warranty.
+Permission is granted to anyone to use this software for any purpose, including
+commercial applications, and to alter it and redistribute it freely, subject to
+the following restrictions:
+1. The origin of this software must not be misrepresented; you must not claim
+   that you wrote the original software.
+2. Altered source versions must be plainly marked as such, and must not be
+   misrepresented as being the original software.
+3. This notice may not be removed or altered from any source distribution.
+
+[Apache License, Version 2.0]
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+these components except in compliance with the License. You may obtain a copy
+of the License at: http://www.apache.org/licenses/LICENSE-2.0
+================================================================================

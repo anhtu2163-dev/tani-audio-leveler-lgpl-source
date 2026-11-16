@@ -1,0 +1,205 @@
+{
+  "ManifestVersion": "1.0.0-phase3b1",
+  "GeneratedAtUtc": "2026-11-16T12:35:00Z",
+  "Product": "TaNi Audio Leveler",
+  "Publisher": "TaNi Digital Labs",
+  "ComplianceGateStatus": "COMMERCIAL_PACKAGING_BLOCKED_PENDING_PO_HOSTING_AND_SIGNOFF",
+  "BinaryDistribution": {
+    "SourceReleaseTag": "latest (2026-11-15T12:59:34Z)",
+    "GitHubActionsRunId": 43712307594,
+    "FFmpegBuildsCommit": "c9fe5114060e507409f7ee07edfd82efaf25d767",
+    "FFmpegCommit": "d838f9f9ae",
+    "ArchiveName": "ffmpeg-n9.0-latest-win64-lgpl-shared-9.0.zip",
+    "ArchiveSha256": "67e32c16f8c5632bdb03ec3cc296b63743e3ff69194c773274632a3378fccccb",
+    "RequiredRuntimeFiles": [
+      { "File": "ffmpeg.exe", "SizeKB": 538.5, "Sha256": "41e9de1dbca838a9c41b4af5fcef7f60edec1e4d9d8ddd3c8eb01aa623c72ff5" },
+      { "File": "avcodec-63.dll", "SizeKB": 89527.0, "Sha256": "b1b96733b56bb6435ed8b344cb5301d1a944439718b7feea6eb0f72003f668be" },
+      { "File": "avfilter-12.dll", "SizeKB": 31129.0, "Sha256": "9708d120fcff749953f8cb668cfd5b02c718f7ca058e033cb6bac201500ae2f1" },
+      { "File": "avformat-63.dll", "SizeKB": 19422.0, "Sha256": "5d17e25d12c3d1c397d13920ee5695bae1bbd6123f1fe2fd7fed87e154138256" },
+      { "File": "avdevice-63.dll", "SizeKB": 4891.0, "Sha256": "1ec7d2d4a1edeb11d49e5f5867690dd6852b4ae813fa5a0f5ef29dcf105433cb" },
+      { "File": "avutil-61.dll", "SizeKB": 2954.5, "Sha256": "35f633502141df491ce18a8386209e03208bcb7f494c3b9a23956f3bb744afd3" },
+      { "File": "swscale-10.dll", "SizeKB": 2289.0, "Sha256": "ed85b16e49d51a946d3b5cd67bbaf7b7ff9f2516f319c41aced93f38a7b5d735" },
+      { "File": "swresample-7.dll", "SizeKB": 729.5, "Sha256": "00f21199f02a5a2c4137d51286833c4fb4082529301761804a24c073f8526d5b" }
+    ]
+  },
+  "LicenseTexts": [
+    { "File": "licenses/COPYING.LGPLv3", "SizeBytes": 7651, "Sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768" },
+    { "File": "licenses/COPYING.GPLv3", "SizeBytes": 35147, "Sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903" },
+    { "File": "licenses/COPYING.LGPLv2.1", "SizeBytes": 26517, "Sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30" },
+    { "File": "licenses/LICENSE.md", "SizeBytes": 4346, "Sha256": "2e1d16c72fd74e12063776371da757322f8b77589386532f4fd8634bde7de1af" },
+    { "File": "THIRD_PARTY_NOTICES.txt", "Description": "Consolidated third-party copyright notices, IJG credit, LGPLv3/MPL-2.0/permissive notices" }
+  ],
+  "CorrespondingSourceArchives": [
+    {
+      "Component": "FFmpeg Core",
+      "License": "LGPLv3 (via --enable-version3)",
+      "UpstreamRepo": "https://github.com/FFmpeg/FFmpeg.git",
+      "PinnedRevision": "d838f9f9ae",
+      "ArchiveFile": "corresponding_source/FFmpeg-d838f9f9ae.zip",
+      "SizeMB": 22.63,
+      "Sha256": "8b135e3202de926d3afc6c48e6a666be6d66862413cfca6f6c507c8d221efd72"
+    },
+    {
+      "Component": "FFmpeg-Builds Scripts & Patches",
+      "License": "MIT / Build Scripts",
+      "UpstreamRepo": "https://github.com/FFmpeg-Builds/FFmpeg-Builds.git",
+      "PinnedRevision": "c9fe5114060e507409f7ee07edfd82efaf25d767",
+      "ArchiveFile": "corresponding_source/FFmpeg-Builds-c9fe5114060e507409f7ee07edfd82efaf25d767.zip",
+      "SizeMB": 0.25,
+      "Sha256": "b38d523f629200404ce597b921e023567dea4ab8d4af5e8b933d96e76642472a"
+    },
+    {
+      "Component": "LAME MP3 Encoder (libmp3lame)",
+      "License": "LGPLv2.0+",
+      "UpstreamRepo": "https://svn.code.sf.net/p/lame/svn/trunk/lame",
+      "PinnedRevision": "SVN r7113 (Git mirror 82add7bc161191fc5e050f5cc68c36f7504ce028)",
+      "ArchiveFile": "corresponding_source/lame-svn-r7113-82add7bc161191fc5e050f5cc68c36f7504ce028.zip",
+      "SizeMB": 2.36,
+      "Sha256": "b11fe3cf9bfa9e5abd1420c6ce878eb82179b41f6e937d26e23689d36a24460b"
+    },
+    {
+      "Component": "SoX Resampler (libsoxr)",
+      "License": "LGPLv2.1+",
+      "UpstreamRepo": "https://git.code.sf.net/p/soxr/code",
+      "PinnedRevision": "945b592b70470e29f917f4de89b4281fbbd540c0",
+      "ArchiveFile": "corresponding_source/soxr-945b592b70470e29f917f4de89b4281fbbd540c0.zip",
+      "SizeMB": 0.21,
+      "Sha256": "eec2f2e545b7df046c6a930ad1444efa58b5fe74bd851a083d5b6eb85519efe6"
+    },
+    {
+      "Component": "GNU libiconv",
+      "License": "LGPLv2.1+",
+      "UpstreamRepo": "https://git.savannah.gnu.org/git/libiconv.git",
+      "PinnedRevision": "b5a1735e02bf43ee6e490fcf9395e8abc8d32432",
+      "ArchiveFile": "corresponding_source/libiconv-b5a1735e02bf43ee6e490fcf9395e8abc8d32432.zip",
+      "SizeMB": 5.07,
+      "Sha256": "8ac7b1836700e8ca59e4a1241b59cda825000c94a0f2912d5594f83dc61f3f46"
+    },
+    {
+      "Component": "GNU gnulib (build dependency of libiconv)",
+      "License": "LGPLv2.1+ / GPLv3+",
+      "UpstreamRepo": "https://git.savannah.gnu.org/git/gnulib.git",
+      "PinnedRevision": "5df606bbd0ef54a8f150c3303c870b9381a661f0",
+      "ArchiveFile": "corresponding_source/gnulib-5df606bbd0ef54a8f150c3303c870b9381a661f0.zip",
+      "SizeMB": 16.63,
+      "Sha256": "bd110f2fd07b3a202a7d24f580d5f9c634b87ea4b1c16c5a74f37e3f4a8ef415"
+    },
+    {
+      "Component": "GNU MP (gmp)",
+      "License": "LGPLv3+ / GPLv2+",
+      "UpstreamRepo": "https://github.com/BtbN/gmplib.git",
+      "PinnedRevision": "5c3e9a9d52b697cab7b7d26a53972a3bf922d59a",
+      "ArchiveFile": "corresponding_source/gmplib-5c3e9a9d52b697cab7b7d26a53972a3bf922d59a.zip",
+      "SizeMB": 4.37,
+      "Sha256": "29a0833a47c9276092f6581fa7c17de505907bc187285c9111a32f5ac2901d5c"
+    },
+    {
+      "Component": "GNU FriBidi",
+      "License": "LGPLv2.1+",
+      "UpstreamRepo": "https://github.com/fribidi/fribidi.git",
+      "PinnedRevision": "d2f3e1f4946e7cef9789e1c3ebdb4a60d4314c7f",
+      "ArchiveFile": "corresponding_source/fribidi-d2f3e1f4946e7cef9789e1c3ebdb4a60d4314c7f.zip",
+      "SizeMB": 2.14,
+      "Sha256": "e580b248cf0967e848d5cee0ca8fa0d06326fec1055ff433bfa8e24e14e23897"
+    },
+    {
+      "Component": "aribb24",
+      "License": "LGPLv3+",
+      "UpstreamRepo": "https://github.com/nkoriyama/aribb24.git",
+      "PinnedRevision": "5e9be272f96e00f15a2f3c5f8ba7e124862aec38",
+      "ArchiveFile": "corresponding_source/aribb24-5e9be272f96e00f15a2f3c5f8ba7e124862aec38.zip",
+      "SizeMB": 0.06,
+      "Sha256": "4c78db4044d9dc6344846c22d2aa70849ebfa46966906ecf9f43bffc6abc15e0"
+    },
+    {
+      "Component": "libbluray",
+      "License": "LGPLv2.1+",
+      "UpstreamRepo": "https://code.videolan.org/videolan/libbluray.git",
+      "PinnedRevision": "f33a738fd7bb8b5e1148b0a5424778db7342450b",
+      "ArchiveFile": "corresponding_source/libbluray-f33a738fd7bb8b5e1148b0a5424778db7342450b.zip",
+      "SizeMB": 1.37,
+      "Sha256": "ad5af7a8cae27736fd73abc5ddb44f658863cb7e80afc2b8681d30099e444c2d"
+    },
+    {
+      "Component": "libudfread",
+      "License": "LGPLv2.1+",
+      "UpstreamRepo": "https://code.videolan.org/videolan/libudfread.git",
+      "PinnedRevision": "b0bc6957e7e07d5f35391f210596d9eb71cffdd9",
+      "ArchiveFile": "corresponding_source/libudfread-b0bc6957e7e07d5f35391f210596d9eb71cffdd9.zip",
+      "SizeMB": 0.14,
+      "Sha256": "1ec48aaeaf211f52f4c013022ff5f16f96a399e7ffda4332af81f81b7d2fdae3"
+    },
+    {
+      "Component": "Game_Music_Emu (libgme)",
+      "License": "LGPLv2.1+",
+      "UpstreamRepo": "https://github.com/libgme/game-music-emu.git",
+      "PinnedRevision": "f68963b1de0633149b05732113d3c3113c6f63a1",
+      "ArchiveFile": "corresponding_source/game-music-emu-f68963b1de0633149b05732113d3c3113c6f63a1.zip",
+      "SizeMB": 0.43,
+      "Sha256": "0954124b1935210f74e0632f64899bccc6db9c471cdce07438a8092035e49f90"
+    },
+    {
+      "Component": "libplacebo",
+      "License": "LGPLv2.1+",
+      "UpstreamRepo": "https://code.videolan.org/videolan/libplacebo.git",
+      "PinnedRevision": "275f7dea27924cdd34ab2e6c20e448b6bc4fab65",
+      "ArchiveFile": "corresponding_source/libplacebo-275f7dea27924cdd34ab2e6c20e448b6bc4fab65.zip",
+      "SizeMB": 1.10,
+      "Sha256": "fda93e6700603b61166b6e57d08372f864a91e1f0cd7b2bdba839bfb6dd7577b"
+    },
+    {
+      "Component": "librsvg",
+      "License": "LGPLv2.1+",
+      "UpstreamRepo": "https://github.com/GNOME/librsvg.git",
+      "PinnedRevision": "0c074d0a25adefd65843067306f9bc1fb609f68f",
+      "ArchiveFile": "corresponding_source/librsvg-0c074d0a25adefd65843067306f9bc1fb609f68f.zip",
+      "SizeMB": 8.96,
+      "Sha256": "2d1d9811b6308a8ca0aebf3464ab3ad72c43a7ea7626f9f2c1362bfc48bd3aaf"
+    },
+    {
+      "Component": "TwoLAME (libtwolame)",
+      "License": "LGPLv2.1+",
+      "UpstreamRepo": "https://github.com/njh/twolame.git",
+      "PinnedRevision": "6fced852d4d5cfad58cf9dbe3ea619b08e87d398",
+      "ArchiveFile": "corresponding_source/twolame-6fced852d4d5cfad58cf9dbe3ea619b08e87d398.zip",
+      "SizeMB": 0.46,
+      "Sha256": "d8a8e1576711e79f2527230b81844c4b9cc990d4b4b788c6dbfca2c4f557d0ac"
+    },
+    {
+      "Component": "OpenAL Soft",
+      "License": "LGPLv2+",
+      "UpstreamRepo": "https://github.com/kcat/openal-soft.git",
+      "PinnedRevision": "4a52288b772d1722713675f71bb30f321e78fd80",
+      "ArchiveFile": "corresponding_source/openal-soft-4a52288b772d1722713675f71bb30f321e78fd80.zip",
+      "SizeMB": 1.83,
+      "Sha256": "83ce6cac45f868abab5689666386738d97c336a01aaa20e390f699947d915336"
+    },
+    {
+      "Component": "VapourSynth",
+      "License": "LGPLv2.1+",
+      "UpstreamRepo": "https://github.com/vapoursynth/vapoursynth.git",
+      "PinnedRevision": "R81",
+      "ArchiveFile": "corresponding_source/vapoursynth-R81.zip",
+      "SizeMB": 1.28,
+      "Sha256": "671adf36f950e3707d18436a0868ad119df0c5ecaa4b0edec4a0b31645b0e2be"
+    },
+    {
+      "Component": "Haivision SRT (libsrt)",
+      "License": "MPL-2.0",
+      "UpstreamRepo": "https://github.com/Haivision/srt.git",
+      "PinnedRevision": "9f2390232a8256ed4c72a5418c2b2777c49ad737",
+      "ArchiveFile": "corresponding_source/srt-9f2390232a8256ed4c72a5418c2b2777c49ad737.zip",
+      "SizeMB": 1.94,
+      "Sha256": "d98c382821c3357afffe66ab5e4ae7080983ba9542e4df1feb0657fadd791498"
+    },
+    {
+      "Component": "ZeroMQ (libzmq)",
+      "License": "MPL-2.0",
+      "UpstreamRepo": "https://github.com/zeromq/libzmq.git",
+      "PinnedRevision": "46493370217ac135246617fa2f6ac819d8b61bfc",
+      "ArchiveFile": "corresponding_source/libzmq-46493370217ac135246617fa2f6ac819d8b61bfc.zip",
+      "SizeMB": 1.32,
+      "Sha256": "6028371f1c3033dcb5d46f8b06915cb3e05b1196e90cadccc45d5eb5055242c6"
+    }
+  ]
+}
