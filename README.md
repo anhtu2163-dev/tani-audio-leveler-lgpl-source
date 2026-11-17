@@ -25,8 +25,8 @@ tani-audio-leveler-lgpl-source/
 ├── README.md                                  # Overview, user rights, and replacement instructions
 ├── LEGAL_COMPLIANCE_AND_REPLACEMENT_GUIDE.md  # Binary provenance, PE dependencies, and replacement guide
 ├── BUILD_AND_REPRODUCIBILITY.md               # Build steps, libplacebo submodules, librsvg Cargo.lock audit
-├── RELEASE_ASSETS_PLAN.md                     # Inventory & SHA-256 digests of the 19 Corresponding Source archives
-├── CORRESPONDING_SOURCE_MANIFEST.json         # Machine-readable SHA-256 manifest (8 runtime binaries + 19 archives)
+├── RELEASE_ASSETS_PLAN.md                     # Inventory & SHA-256 digests of the 24 Corresponding Source archives
+├── CORRESPONDING_SOURCE_MANIFEST.json         # Machine-readable SHA-256 manifest (8 runtime binaries + 24 archives)
 ├── THIRD_PARTY_NOTICES.txt                    # Consolidated notices (FFmpeg, IJG, LAME, LGPL/MPL & permissive libs)
 └── licenses/
     ├── COPYING.LGPLv3                         # GNU Lesser General Public License v3.0
@@ -35,7 +35,7 @@ tani-audio-leveler-lgpl-source/
     └── LICENSE.md                             # Upstream FFmpeg license overview
 ```
 
-The **19 Corresponding Source `.zip` archives (`72.55 MB` total)** are attached as assets to the GitHub Release tagged **`ffmpeg-lgpl-9.0-d838f9f9ae`** (see [RELEASE_ASSETS_PLAN.md](RELEASE_ASSETS_PLAN.md)).
+The **24 Corresponding Source `.zip` archives (`139.83 MB` total)** are attached as assets to the GitHub Release tagged **`ffmpeg-lgpl-9.0-d838f9f9ae`** (see [RELEASE_ASSETS_PLAN.md](RELEASE_ASSETS_PLAN.md)).
 
 ---
 
@@ -55,4 +55,4 @@ In accordance with **Section 4 of the GNU Lesser General Public License v3**:
 See [BUILD_AND_REPRODUCIBILITY.md](BUILD_AND_REPRODUCIBILITY.md) and [LEGAL_COMPLIANCE_AND_REPLACEMENT_GUIDE.md](LEGAL_COMPLIANCE_AND_REPLACEMENT_GUIDE.md) for:
 - Exact `FFmpeg-Builds` (`c9fe5114060e507409f7ee07edfd82efaf25d767`) Docker build commands (`makeimage.sh` & `build.sh`).
 - Verification of **LAME (`SVN r7113`)**, **`libplacebo` (`275f7dea...`)** submodules, and **`librsvg` (`0c074d0a...`)** `Cargo.lock` dependencies.
-- SHA-256 verification digests for all 8 runtime binaries and 19 Corresponding Source archives.
+- SHA-256 verification digests for all 8 runtime binaries and 24 Corresponding Source archives.

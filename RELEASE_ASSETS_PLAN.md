@@ -1,6 +1,6 @@
 # GitHub Release Assets Plan (`tag: ffmpeg-lgpl-9.0-d838f9f9ae`)
 
-The following **19 verified Corresponding Source `.zip` archives (`72.55 MB` total)** are staged locally and ready to be attached as GitHub Release assets upon Product Owner approval:
+The following **24 verified Corresponding Source `.zip` archives (`139.83 MB` total)** are staged locally and ready to be attached as GitHub Release assets upon Product Owner approval:
 
 | # | Component | License | Pinned Revision | Archive File | Size (MB) | SHA-256 Digest |
 | :-: | :--- | :---: | :--- | :--- | :---: | :--- |
@@ -23,3 +23,8 @@ The following **19 verified Corresponding Source `.zip` archives (`72.55 MB` tot
 | 17 | `vapoursynth` | LGPLv2.1+ | `R81` | `vapoursynth-R81.zip` | `1.28` | `671adf36f950e3707d18436a0868ad119df0c5ecaa4b0edec4a0b31645b0e2be` |
 | 18 | Haivision `srt` | MPL-2.0 | `9f2390232a8256ed4c72a5418c2b2777c49ad737` | `srt-9f2390232a8256ed4c72a5418c2b2777c49ad737.zip` | `1.94` | `d98c382821c3357afffe66ab5e4ae7080983ba9542e4df1feb0657fadd791498` |
 | 19 | ZeroMQ (`libzmq`) | MPL-2.0 | `46493370217ac135246617fa2f6ac819d8b61bfc` | `libzmq-46493370217ac135246617fa2f6ac819d8b61bfc.zip` | `1.32` | `6028371f1c3033dcb5d46f8b06915cb3e05b1196e90cadccc45d5eb5055242c6` |
+| 20 | GLib | LGPLv2.1+ | `50b938a3e8f5154a25b5af3dd8b9dd8b2ccba7c3` | `glib-50b938a3e8f5154a25b5af3dd8b9dd8b2ccba7c3.zip` | `11.34` | `2a41d32eadbb3076457abac061dd3917fe8326f5e42dc947f02f1e9490c6e903` |
+| 21 | Cairo | LGPLv2.1 / MPL-1.1 | `74755964edef651691d5cd36ff140108298e4e6e` | `cairo-74755964edef651691d5cd36ff140108298e4e6e.zip` | `49.76` | `20aa260cccb8edfcacc5bcd4ea75cc98b40a0951971f6aff15edc26688e1bb6e` |
+| 22 | Pango | LGPLv2.0+ | `68e981d243d50e03f3df12fb400f31647ef570d2` | `pango-68e981d243d50e03f3df12fb400f31647ef570d2.zip` | `2.75` | `a54bdae5434239733344921e86fae9ba94beb916da5634eb24d903fff494c670` |
+| 23 | `libssh` | LGPLv2.1+ | `9de02f3d01ba16d06f46c0c4d27aa08d8deeecee` | `libssh-9de02f3d01ba16d06f46c0c4d27aa08d8deeecee.zip` | `1.59` | `989c192373c82164ff5a351b3a087ef4ab146f35e194bc14190e6e667c604856` |
+| 24 | Chromaprint (`v1.6.2`) | LGPLv2.1 | `3b38c100022bdfb49be7797c4828a476f1621d55` | `chromaprint-3b38c100022bdfb49be7797c4828a476f1621d55.zip` | `1.84` | `cb0bac5fb43a79af3e59dfac97d50da0b99b1d37e7cd91fd324067868159b855` |

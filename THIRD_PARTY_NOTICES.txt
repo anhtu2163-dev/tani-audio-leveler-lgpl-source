@@ -158,6 +158,36 @@ into the shared FFmpeg DLLs are archived in:
   - Notice per MPL-2.0 Section 3.2: Source code for libzmq is provided in
     libzmq-46493370217ac135246617fa2f6ac819d8b61bfc.zip (Commit: 46493370217ac135246617fa2f6ac819d8b61bfc).
 
+3.17. GLib
+  - Copyright (c) 1995-2026 GLib Developers / GNOME Project.
+  - License: GNU Lesser General Public License v2.1 or later (LGPLv2.1+).
+  - Exact Commit: 50b938a3e8f5154a25b5af3dd8b9dd8b2ccba7c3
+  - Source Archive: glib-50b938a3e8f5154a25b5af3dd8b9dd8b2ccba7c3.zip
+
+3.18. Cairo
+  - Copyright (c) 2002-2026 University of Southern California / Carl Worth / Cairo Contributors.
+  - License: Dual GNU Lesser General Public License v2.1 (LGPLv2.1) or Mozilla Public License 1.1 (MPL-1.1) — distributed under LGPLv2.1.
+  - Exact Commit: 74755964edef651691d5cd36ff140108298e4e6e
+  - Source Archive: cairo-74755964edef651691d5cd36ff140108298e4e6e.zip
+
+3.19. Pango
+  - Copyright (c) 1999-2026 Red Hat Software / Owen Taylor / GNOME Project.
+  - License: GNU Library/Lesser General Public License v2.0 or later (LGPLv2.0+).
+  - Exact Commit: 68e981d243d50e03f3df12fb400f31647ef570d2
+  - Source Archive: pango-68e981d243d50e03f3df12fb400f31647ef570d2.zip
+
+3.20. libssh
+  - Copyright (c) 2003-2026 Aris Adamantiadis, Andreas Schneider, and libssh contributors.
+  - License: GNU Lesser General Public License v2.1 or later (LGPLv2.1+).
+  - Exact Commit: 9de02f3d01ba16d06f46c0c4d27aa08d8deeecee
+  - Source Archive: libssh-9de02f3d01ba16d06f46c0c4d27aa08d8deeecee.zip
+
+3.21. Chromaprint (v1.6.2, with kissfft)
+  - Copyright (c) 2010-2026 Lukas Lalinsky (MIT core + internal FFmpeg avresample under LGPLv2.1; kissfft under BSD-3-Clause).
+  - License: GNU Lesser General Public License v2.1 (LGPLv2.1 as a whole per upstream LICENSE.md).
+  - Exact Commit: 3b38c100022bdfb49be7797c4828a476f1621d55
+  - Source Archive: chromaprint-3b38c100022bdfb49be7797c4828a476f1621d55.zip
+
 
 4. PERMISSIVE LIBRARIES LINKED IN THE FFMPEG BUILD (BSD / MIT / APACHE / ZLIB)
 --------------------------------------------------------------------------------
@@ -199,12 +229,10 @@ FFmpeg-Builds-c9fe5114060e507409f7ee07edfd82efaf25d767.zip):
 - AMD AMF Headers (57ee0cfb...): Copyright (c) Advanced Micro Devices, Inc. (MIT License).
 - NVIDIA nv-codec-headers (f2053071...): Copyright (c) NVIDIA Corporation (MIT License).
 - Intel libvpl (674d015b...) & libva (f052e984...): Copyright (c) Intel Corporation (MIT License).
-- Chromaprint (3b38c100...): Copyright (c) 2010-2026 Lukas Lalinsky (MIT License).
 - libaribcaption (37dde0f3...): Copyright (c) 2022-2026 xqq (MIT License).
 - libass (f61db567...): Copyright (c) 2006-2026 libass contributors (ISC License).
 - libjxl (e47d2a2b...): Copyright (c) the JPEG XL Project Authors (BSD-3-Clause).
 - librist (47ad5513...): Copyright (c) 2019-2026 SipRadius LLC and librist authors (BSD-2-Clause).
-- libssh (9de02f3d...): Copyright (c) 2003-2026 Aris Adamantiadis, Andreas Schneider, and libssh contributors (LGPLv2.1+ / BSD).
 - OpenJPEG (8314119b...): Copyright (c) 2002-2026, Universite catholique de Louvain (UCL) (BSD-2-Clause).
 - libopenmpt (3ee3c800...): Copyright (c) 2004-2026 OpenMPT Project Developers and Contributors (BSD-3-Clause).
 - SDL2 (8acf7cfc...): Copyright (c) 1997-2026 Sam Lantinga <slouken@libsdl.org> (Zlib License).

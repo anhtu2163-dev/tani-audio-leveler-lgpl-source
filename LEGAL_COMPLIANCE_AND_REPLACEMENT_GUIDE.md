@@ -48,4 +48,4 @@
 
 ## 3. Corresponding Source & Reproducibility
 
-All **19 Corresponding Source `.zip` archives (`72.55 MB` total)** and their SHA-256 digests are cataloged in [CORRESPONDING_SOURCE_MANIFEST.json](CORRESPONDING_SOURCE_MANIFEST.json) and [RELEASE_ASSETS_PLAN.md](RELEASE_ASSETS_PLAN.md). Build instructions and submodule/Cargo dependency details are documented in [BUILD_AND_REPRODUCIBILITY.md](BUILD_AND_REPRODUCIBILITY.md).
+All **24 Corresponding Source `.zip` archives (`139.83 MB` total)** and their SHA-256 digests are cataloged in [CORRESPONDING_SOURCE_MANIFEST.json](CORRESPONDING_SOURCE_MANIFEST.json) and [RELEASE_ASSETS_PLAN.md](RELEASE_ASSETS_PLAN.md). Build instructions and submodule/Cargo dependency details are documented in [BUILD_AND_REPRODUCIBILITY.md](BUILD_AND_REPRODUCIBILITY.md).
